@@ -1,0 +1,16 @@
+name: MBC-T2
+version: '${project.version}'
+main: smile.main.mbct2.MBCT2
+api-version: 1.18
+authors: [ Smile ]
+description: 一個用於調整記分板的插件
+commands:
+  location:
+    description: 一個公開自身座標的指令
+    usage: /<command> <player>
+  mbc:
+      description: MBC的所有額外指令支援
+      usage: /<command>
+  locationall:
+    description: MBC的所有額外指令支援
+    usage: /<command>
